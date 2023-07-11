@@ -19,8 +19,8 @@ public class Animal {
         String f;
         if(hasFur) f = "a";
         else f = "no";
-        return "This animal is mostly" + color + "." +
-                " It has" + numberOfPaws + "paws and" + f + "fur.";
+        return "This animal is mostly " + color + "." +
+                " It has " + numberOfPaws + " paws and " + f + " fur.";
     };
 
 }
